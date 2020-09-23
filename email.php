@@ -26,7 +26,7 @@ $mail->IsSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup server
 $mail->SMTPAuth = True;                               // Enable SMTP authentication
 $mail->Username = 'mchinegalaxy@gmail.com';                            // SMTP username
-$mail->Password = 'STRENGTH!';                           // SMTP password
+$mail->Password = '';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 $mail->Port = 587; 
 
